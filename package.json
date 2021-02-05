@@ -1,0 +1,28 @@
+{
+  "name": "chessPressDiscordBot",
+  "version": "1.0.0",
+  "description": "intended bot functions:\r 1. Verify users account via command and match role accordingly (based on rank)\r 2. ability to either auto update rank, or have a command which allows users to update their rank manually (via command to parse website)\r 3. input .png files (or just paste moves) and create a puzzle accordingly (https://www.chess.com/goto_daily_puzzle)\r 4. auto role for trainers\r 5. automatically sync news from either: chessbase, chess.com, lichess or whereever I can find that allows such a thing.\r 6. challenge command which dms both you and a specified user a link to a match",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edisonsteele/chessPressDiscordBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edisonsteele/chessPressDiscordBot/issues"
+  },
+  "homepage": "https://github.com/edisonsteele/chessPressDiscordBot#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "discord.js": "^12.5.1",
+    "got": "^10.4.0",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {}
+}
